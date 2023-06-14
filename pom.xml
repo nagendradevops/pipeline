@@ -175,7 +175,7 @@
           <properties>
           <!-- Optional URL to server. Default value is http://localhost:9000 -->
           <sonar.host.url>
-            https://sonarqube-peertest-tekton-pipelines.apps.amosdsohiodev.amosonline.io/
+            https://sonarqube-tekton-pipelines.apps.amosdsohiodev.amosonline.io/
           </sonar.host.url>
           </properties>
           </profile>

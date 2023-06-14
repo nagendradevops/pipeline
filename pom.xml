@@ -12,7 +12,7 @@
     <groupId>com.amos</groupId>
     <artifactId>java-app</artifactId>
     <name>Java-Spring-Boot-Maven</name>
-    <version>0.0.2</version>
+    <version>0.0.0</version>
     <packaging>jar</packaging>
     <description>Demo Project for SprintBoot</description>   
     <properties>
@@ -25,23 +25,14 @@
     </properties>
     <distributionManagement>
         <repository>
-            <id>nexusrepo</id>
+            <id>java-app</id>
             <name>java-release</name>
-<<<<<<< HEAD
-            <url>https://nexus3-tekton-pipelines.apps.amosdsohiodev.amosonline.io/repository/java-app/</url>
+            <url>https://nexus3-peertest-tekton-pipelines.apps.amosdsohiodev.amosonline.io/repository/java-app/</url>
         </repository>
         <snapshotRepository>
             <id>java-snap</id>
             <name>java-snapshot</name>
-            <url>https://nexus3-tekton-pipelines.apps.amosdsohiodev.amosonline.io/repository/java-snap/</url>
-=======
-            <url>https://nexus3-cicdpeertest.apps.amosdsohiodev.amosonline.io/repository/nexusrepo/</url>
-        </repository>
-        <snapshotRepository>
-            <id>nexussnapshot</id>
-            <name>nexussnapshot</name>
-            <url>https://nexus3-cicdpeertest.apps.amosdsohiodev.amosonline.io/repository/nexussnapshot/</url>
->>>>>>> 4b88b809d6e8808ab42273c87e854a488c257aea
+            <url>https://nexus3-peertest-tekton-pipelines.apps.amosdsohiodev.amosonline.io/repository/java-snap/</url>
         </snapshotRepository>
         
     </distributionManagement>
@@ -184,11 +175,7 @@
           <properties>
           <!-- Optional URL to server. Default value is http://localhost:9000 -->
           <sonar.host.url>
-<<<<<<< HEAD
-            https://sonarqube-tekton-pipelines.apps.amosdsohiodev.amosonline.io/
-=======
-            https://sonarqube-cicdpeertest.apps.amosdsohiodev.amosonline.io/
->>>>>>> 4b88b809d6e8808ab42273c87e854a488c257aea
+            https://sonarqube-peertest-tekton-pipelines.apps.amosdsohiodev.amosonline.io/
           </sonar.host.url>
           </properties>
           </profile>

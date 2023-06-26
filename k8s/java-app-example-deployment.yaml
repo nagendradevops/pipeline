@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: java-app
-          image: default-route-openshift-image-registry.apps.amosdsohiodev.amosonline.io/tekton-pipelines/testing:0.1.9
+          image: default-route-openshift-image-registry.apps.amosdsohiodev.amosonline.io/tekton-pipelines/testing:0.0.0
           ports:
             - containerPort: 8080
               protocol: TCP

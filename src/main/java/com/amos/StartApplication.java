@@ -13,7 +13,7 @@ public class StartApplication {
     @GetMapping("/")
     public String index(final Model model) {
         model.addAttribute("title", "Tekton + Spring Boot App + Openshift");
-        model.addAttribute("msg", "We are doing PeerTesting with improvments of Tekton on Ohio !!!");
+        model.addAttribute("msg", "We have setup the Vault to store sonarqube token & getting dynamically the token for analysis with improvments of Tekton on Ohio !!!");
         
         return "index";
     }

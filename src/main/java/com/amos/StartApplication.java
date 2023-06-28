@@ -13,7 +13,7 @@ public class StartApplication {
     @GetMapping("/")
     public String index(final Model model) {
         model.addAttribute("title", "Tekton + Spring Boot App + Openshift");
-        model.addAttribute("msg", "sonarqube analysis is doing and verifing with 0.0.2-SNAPSHOT with improvments of Tekton on Ohio !!!");
+        model.addAttribute("msg", "sonarqube analysis is doing and verifing with 0.0.3-SNAPSHOT with Tekton on Ohio !!!");
         
         return "index";
     }

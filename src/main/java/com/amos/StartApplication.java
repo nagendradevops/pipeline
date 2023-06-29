@@ -13,7 +13,7 @@ public class StartApplication {
     @GetMapping("/")
     public String index(final Model model) {
         model.addAttribute("title", "Tekton + Spring Boot App + Openshift");
-        model.addAttribute("msg", "As expected we are able to create Quality Profile Gates and set as Default with 0.0.5-SNAPSHOT with Tekton on Ohio !!!");
+        model.addAttribute("msg", "We are testing in github with eventlistener with 0.0.6-SNAPSHOT with Tekton on Ohio !!!");
         
         return "index";
     }

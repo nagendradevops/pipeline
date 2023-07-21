@@ -12,7 +12,7 @@
     <groupId>com.amos</groupId>
     <artifactId>java-app</artifactId>
     <name>Java-Spring-Boot-Maven</name>
-    <version>0.0.7-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
     <description>Demo Project for SprintBoot</description>   
     <properties>
@@ -27,12 +27,12 @@
         <repository>
             <id>java-app</id>
             <name>java-release</name>
-            <url>https://nexus3-tekton-pipelines.apps.amosdsohiodev.amosonline.io/repository/java-app/</url>
+            <url>https://nexus3-testing-cicd.apps.amosdsohiodev.amosonline.io/repository/java-app/</url>
         </repository>
         <snapshotRepository>
             <id>java-snap</id>
             <name>java-snapshot</name>
-            <url>https://nexus3-tekton-pipelines.apps.amosdsohiodev.amosonline.io/repository/java-snap/</url>
+            <url>https://nexus3-testing-cicd.apps.amosdsohiodev.amosonline.io/repository/java-snap/</url>
         </snapshotRepository>
         
     </distributionManagement>
@@ -175,7 +175,7 @@
           <properties>
           <!-- Optional URL to server. Default value is http://localhost:9000 -->
           <sonar.host.url>
-            https://sonarqube-tekton-pipelines.apps.amosdsohiodev.amosonline.io/
+            https://sonarqube-testing-cicd.apps.amosdsohiodev.amosonline.io/
           </sonar.host.url>
           </properties>
           </profile>

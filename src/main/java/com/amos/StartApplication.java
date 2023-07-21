@@ -13,7 +13,7 @@ public class StartApplication {
     @GetMapping("/")
     public String index(final Model model) {
         model.addAttribute("title", "Tekton + Spring Boot App + Openshift");
-        model.addAttribute("msg", "We are able to deploy the application with webhook  with 0.0.7-SNAPSHOT in  Tekton on Ohio !!!");
+        model.addAttribute("msg", "We are doing Peertesting with 0.0.2 application version in  Tekton on Ohio !!!");
         
         return "index";
     }
